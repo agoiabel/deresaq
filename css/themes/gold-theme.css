@@ -1,0 +1,73 @@
+/* Gold color skin */
+
+.gold-theme ,
+.gold-theme .crypto-section__content .btcwdgt-chart .btcwdgt-header{
+    background: rgb(101,108,116) !important; 
+    background: -moz-linear-gradient(45deg, rgba(101,108,116,1) 0%, rgba(65,63,80,1) 100%) !important; 
+    background: -webkit-linear-gradient(45deg, rgba(101,108,116,1) 0%,rgba(65,63,80,1) 100%) !important; 
+    background: linear-gradient(45deg, rgba(101,108,116,1) 0%,rgba(65,63,80,1) 100%) !important; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656c74', endColorstr='#413f50',GradientType=1 ) !important;
+}
+.gold-theme .title span {
+    background: rgb(153,147,125); 
+    background: -moz-linear-gradient(45deg, rgba(153,147,125,1) 0%, rgba(203,198,154,1) 100%); 
+    background: -webkit-linear-gradient(45deg, rgba(153,147,125,1) 0%,rgba(203,198,154,1) 100%); 
+    background: linear-gradient(45deg, rgba(153,147,125,1) 0%,rgba(203,198,154,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99937d', endColorstr='#cbc69a',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gold-theme .btn-danger,
+.gold-theme .crypto-section__content .btcwdgt-chart .btcwdgt-header h2 ,
+.gold-theme .faq-section .nav-pills .nav-link.active, 
+.gold-theme .faq-section .nav-pills .nav-link:hover,
+.gold-theme .navbar.fixed-right .navbar-nav li.active a, 
+.gold-theme .navbar.fixed-right .navbar-nav a.active, 
+.gold-theme .navbar.fixed-right .navbar-nav a:hover,
+.gold-theme .navbar.fixed-top .navbar-nav li.active a, 
+.gold-theme .navbar.fixed-top .navbar-nav a.active, 
+.gold-theme .navbar.fixed-top .navbar-nav a:hover {
+    background: rgb(153,147,125) !important; 
+    background: -moz-linear-gradient(45deg, rgba(153,147,125,1) 0%, rgba(203,198,154,1) 100%) !important; 
+    background: -webkit-linear-gradient(45deg, rgba(153,147,125,1) 0%,rgba(203,198,154,1) 100%) !important; 
+    background: linear-gradient(45deg, rgba(153,147,125,1) 0%,rgba(203,198,154,1) 100%) !important; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99937d', endColorstr='#cbc69a',GradientType=1 ) !important;
+}
+.gold-theme .btn-primary {
+    background: rgb(101,108,116); 
+    background: -moz-linear-gradient(45deg, rgba(101,108,116,1) 0%, rgba(65,63,80,1) 100%); 
+    background: -webkit-linear-gradient(45deg, rgba(101,108,116,1) 0%,rgba(65,63,80,1) 100%); 
+    background: linear-gradient(45deg, rgba(101,108,116,1) 0%,rgba(65,63,80,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656c74', endColorstr='#413f50',GradientType=1 );
+}
+.gold-theme .btn-danger:hover,
+.gold-theme .btn-danger:focus,
+.gold-theme .btn-danger:active {
+    background: rgb(153,147,125) !important; 
+    background: -moz-linear-gradient(-45deg, rgba(153,147,125,1) 0%, rgba(203,198,154,1) 100%) !important; 
+    background: -webkit-linear-gradient(-45deg, rgba(153,147,125,1) 0%,rgba(203,198,154,1) 100%) !important; 
+    background: linear-gradient(-45deg, rgba(153,147,125,1) 0%,rgba(203,198,154,1) 100%) !important; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99937d', endColorstr='#cbc69a',GradientType=1 ) !important;
+    transition: all .2s ease-in-out;
+}
+.gold-theme .btn-primary {
+    background: rgb(101,108,116); 
+    background: -moz-linear-gradient(45deg, rgba(101,108,116,1) 0%, rgba(65,63,80,1) 100%); 
+    background: -webkit-linear-gradient(45deg, rgba(101,108,116,1) 0%,rgba(65,63,80,1) 100%); 
+    background: linear-gradient(45deg, rgba(101,108,116,1) 0%,rgba(65,63,80,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656c74', endColorstr='#413f50',GradientType=1 );
+}
+.gold-theme .btn-primary:hover,
+.gold-theme .btn-primary:focus,
+.gold-theme .btn-primary:active {
+    background: rgb(101,108,116); 
+    background: -moz-linear-gradient(-45deg, rgba(101,108,116,1) 0%, rgba(65,63,80,1) 100%); 
+    background: -webkit-linear-gradient(-45deg, rgba(101,108,116,1) 0%,rgba(65,63,80,1) 100%); 
+    background: linear-gradient(-45deg, rgba(101,108,116,1) 0%,rgba(65,63,80,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656c74', endColorstr='#413f50',GradientType=1 );
+}
+
+.gold-theme .token-sale__time b,
+.gold-theme .token-sale__time,
+.gold-theme .team-section__member-meta .name,
+.gold-theme .faq-section .nav-pills {color: #99937d;}

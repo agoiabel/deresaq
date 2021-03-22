@@ -1,0 +1,15 @@
+.c_advisors {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.team-section__member {
+    margin-right: 45px !important;
+}
+.team-section__member-face {
+    margin-left: 15px !important;
+}
+.c_team_member {
+    margin-left: 25px !important;
+}

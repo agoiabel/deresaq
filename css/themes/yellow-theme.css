@@ -1,0 +1,66 @@
+/* Yellow color skin */
+
+.yellow-theme ,
+.yellow-theme .crypto-section__content .btcwdgt-chart .btcwdgt-header{
+    background: rgb(59,100,143) !important; 
+    background: -moz-linear-gradient(45deg, rgba(59,100,143,1) 0%, rgba(86,72,171,1) 100%) !important; 
+    background: -webkit-linear-gradient(45deg, rgba(59,100,143,1) 0%,rgba(86,72,171,1) 100%) !important; 
+    background: linear-gradient(45deg, rgba(59,100,143,1) 0%,rgba(86,72,171,1) 100%) !important; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b648f', endColorstr='#5648ab',GradientType=1 ) !important;
+}
+.yellow-theme .title span {
+    background: rgb(167,134,20); 
+    background: -moz-linear-gradient(45deg, rgba(167,134,20,1) 0%, rgba(191,173,23,1) 100%); 
+    background: -webkit-linear-gradient(45deg, rgba(167,134,20,1) 0%,rgba(191,173,23,1) 100%); 
+    background: linear-gradient(45deg, rgba(167,134,20,1) 0%,rgba(191,173,23,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a78614', endColorstr='#bfad17',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.yellow-theme .btn-danger,
+.yellow-theme .crypto-section__content .btcwdgt-chart .btcwdgt-header h2 ,
+.yellow-theme .faq-section .nav-pills .nav-link.active, 
+.yellow-theme .faq-section .nav-pills .nav-link:hover,
+.yellow-theme .navbar.fixed-right .navbar-nav li.active a, 
+.yellow-theme .navbar.fixed-right .navbar-nav a.active, 
+.yellow-theme .navbar.fixed-right .navbar-nav a:hover,
+.yellow-theme .navbar.fixed-top .navbar-nav li.active a, 
+.yellow-theme .navbar.fixed-top .navbar-nav a.active, 
+.yellow-theme .navbar.fixed-top .navbar-nav a:hover {
+    background: rgb(167,134,20) !important; 
+    background: -moz-linear-gradient(45deg, rgba(167,134,20,1) 0%, rgba(191,173,23,1) 100%) !important; 
+    background: -webkit-linear-gradient(45deg, rgba(167,134,20,1) 0%,rgba(191,173,23,1) 100%) !important; 
+    background: linear-gradient(45deg, rgba(167,134,20,1) 0%,rgba(191,173,23,1) 100%) !important; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a78614', endColorstr='#bfad17',GradientType=1 ) !important;
+}
+.yellow-theme .btn-primary {
+   background: rgb(59,100,143); 
+    background: -moz-linear-gradient(45deg, rgba(59,100,143,1) 0%, rgba(86,72,171,1) 100%); 
+    background: -webkit-linear-gradient(45deg, rgba(59,100,143,1) 0%,rgba(86,72,171,1) 100%); 
+    background: linear-gradient(45deg, rgba(59,100,143,1) 0%,rgba(86,72,171,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b648f', endColorstr='#5648ab',GradientType=1 );
+}
+.yellow-theme .btn-danger:hover,
+.yellow-theme .btn-danger:focus,
+.yellow-theme .btn-danger:active {
+    background: rgb(167,134,20) !important; 
+    background: -moz-linear-gradient(-45deg, rgba(167,134,20,1) 0%, rgba(191,173,23,1) 100%) !important; 
+    background: -webkit-linear-gradient(-45deg, rgba(167,134,20,1) 0%,rgba(191,173,23,1) 100%) !important; 
+    background: linear-gradient(-45deg, rgba(167,134,20,1) 0%,rgba(191,173,23,1) 100%) !important; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a78614', endColorstr='#bfad17',GradientType=1 ) !important;
+    transition: all .2s ease-in-out;
+}
+.yellow-theme .btn-primary:hover,
+.yellow-theme .btn-primary:focus,
+.yellow-theme .btn-primary:active {
+   background: rgb(59,100,143); 
+    background: -moz-linear-gradient(-45deg, rgba(59,100,143,1) 0%, rgba(86,72,171,1) 100%); 
+    background: -webkit-linear-gradient(-45deg, rgba(59,100,143,1) 0%,rgba(86,72,171,1) 100%); 
+    background: linear-gradient(-45deg, rgba(59,100,143,1) 0%,rgba(86,72,171,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b648f', endColorstr='#5648ab',GradientType=1 );
+}
+
+.yellow-theme .token-sale__time b,
+.yellow-theme .token-sale__time,
+.yellow-theme .team-section__member-meta .name,
+.yellow-theme .faq-section .nav-pills {color: #a78614;}

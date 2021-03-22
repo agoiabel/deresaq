@@ -1,0 +1,331 @@
+/*!
+Template :  Crypto Dojo - Cryptocurrency Landing Template
+Author   :  ThemesDojo
+Version  :  1.0.0
+Created  :  23.20.2018
+*/
+
+/* 
+********** ==> RESPONSIVE STYLES <== **********
+
+1. LARGER MONITORS
+2. MEDIUM SCREENS/DESKTOPS
+3. TABLETS / IPADS
+4. SMARTPHONES
+
+********** ==> END RESPONSIVE STYLES <== **********
+*/
+
+/* Larger devices (larger desktops, 1400px and up) */
+@media screen and (max-width: 1400px) {
+    .line {height: 9.24rem;}
+    .token-sale__graph-info:nth-of-type(3) {left: -2%;}
+    .token-sale__graph-info:nth-of-type(6) {right: -2%;}
+    .token-sale__graph-info:nth-of-type(4) {left: 10%;}
+    .token-sale__graph-info:nth-of-type(5) {right: 10%;}
+
+    #distributionChart, 
+    #proceedsChart {height: 400px;}
+
+    .fixed-top-navbar .line-xl {margin-bottom: 6.5%;}
+    .fixed-top-navbar .line-mp {margin-bottom: -4%;}
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {
+    .line-play {
+        right: -9rem;
+        bottom: 0;
+    }
+    .line {height: 7rem;}
+
+    .navbar.fixed-right {padding: 1.875rem 1rem 1.5rem 0;}
+    .fixed-brand {
+        top: 5%;
+        left: 5%;
+    }
+    
+    .settings-box {bottom: 10%;}
+
+    #lottie {margin-top: 3.75rem;}
+
+    .crypto-section__content {padding: 3.125rem 1.875rem 3.75rem;}
+    .about__description {padding-left: 1.875rem;}
+
+    .token-section.charts-view .title br {display: none;}
+    .token-section.charts-view .title {text-align: center;}
+    .token-sale__graph-info:nth-of-type(3) {left: -5%;}
+    .token-sale__graph-info:nth-of-type(6) {right: -5%;}
+    .token-sale__graph-info:nth-of-type(4) {
+        margin-top: 1rem;
+        left: 8%;
+    }
+    .token-sale__graph-info:nth-of-type(5) {
+        margin-top: 1rem;
+        right: 8%;
+    }
+
+    .partners-section__blk a {margin-bottom: 1.5rem;}
+
+    .navbar-toggler {
+        cursor: pointer;
+        width: 35px; 
+        height: 30px;
+        float: right;
+        padding: 0;
+        outline: none !important;
+        position: absolute;
+        right: 1.875rem;
+        top: 1.875rem;
+    }
+    .navbar-toggler.collapsed .navbar-toggler-icon:nth-child(1) {
+        -webkit-animation:outT 0.8s backwards;
+        animation:outT 0.8s backwards;
+        -webkit-animation-direction:reverse;
+        animation-direction:reverse;
+    }
+    .navbar-toggler.collapsed .navbar-toggler-icon:nth-child(2) {
+        margin: 6px 0;
+        -webkit-animation:outM 0.8s backwards;
+        animation:outM 0.8s backwards;
+        -webkit-animation-direction:reverse;
+        animation-direction:reverse;
+    }
+    .navbar-toggler.collapsed .navbar-toggler-icon:nth-child(3) {
+        -webkit-animation:outBtm 0.8s backwards;
+        animation:outBtm 0.8s backwards;
+        -webkit-animation-direction:reverse;
+        animation-direction:reverse;
+    }
+    .navbar-toggler-icon {
+        background-color: #fff;
+        border-radius: 2px;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+    }
+    .navbar-toggler-icon:nth-child(1) {
+        -webkit-animation:inT 0.8s forwards;
+        animation:inT 0.8s forwards;
+    }
+    .navbar-toggler-icon:nth-child(2) {
+        -webkit-animation:inM 0.8s forwards;
+        animation:inM 0.8s forwards;
+        margin: 7px 0;
+    }
+    .navbar-toggler-icon:nth-child(3) {
+        -webkit-animation:inBtm 0.8s forwards;
+        animation:inBtm 0.8s forwards;
+    }
+
+    .navbar.fixed-top {
+        background: rgb(159,54,171);
+        background: -moz-linear-gradient(45deg, rgba(159,54,171,1) 0%, rgba(96,42,119,1) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(159,54,171,1) 0%,rgba(96,42,119,1) 100%);
+        background: linear-gradient(45deg, rgba(159,54,171,1) 0%,rgba(96,42,119,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f36ab', endColorstr='#602a77',GradientType=1 );
+    }
+    .navbar.fixed-top .navbar-collapse {
+        z-index: 5;
+        padding: 1rem;
+    }
+    .navbar.fixed-top .navbar-toggler {position: static;}
+    .navbar.fixed-top .navbar-nav a {padding: .625rem .925rem;}
+
+}
+
+
+/* Medium devices (tablets, 992px and up) */
+@media screen and (max-width: 991px) {
+    #cd-content {padding: 0.9375rem 0;}
+    .fp-tableCell {padding: 0.9375rem 1.875rem;}
+
+    .line {
+        height: 2.5rem;
+        background-position: bottom;
+    }   
+
+
+    .navbar.fixed-right {
+        max-width: 100%;
+        width: 30%;
+        padding-top: 90px;
+    }
+
+
+    .navbar.fixed-right .social-icons {margin-top: 2.5rem;}
+
+    #fullPage {transition: transform .3s cubic-bezier(0.175, 0.885, 0.32, 1.275) .5s;}
+    #fullPage.show-menu {
+        transform: translateX(-30%) !important;
+        transition: transform .3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    }
+
+    .crypto-section.charts-view {height: auto;}
+
+    .hex-content.first {margin-bottom: 90px;}
+    .hex-content.last {margin-top: 90px;} 
+
+    .token-sale__graph-info:nth-of-type(4) {
+        margin-top: 2rem;
+        left: 3%;
+    }
+    .token-sale__graph-info:nth-of-type(5) {
+        margin-top: 2rem;
+        right: 3%;
+    }
+    .token-sale__graph-info:nth-of-type(3) {
+        left: -10%;
+        bottom: 120px;
+    }
+    .token-sale__graph-info:nth-of-type(6) {
+        right: -10%;
+        bottom: 120px;
+    }
+    .token-sale__time {text-align: center !important;}
+    .token-sale__time .countdown {margin-top: 1.25rem;}
+    .app-section__bg {margin-bottom: 30px;}
+
+    .faq-section .title br,
+    .contacts-section .title br {display: none;}
+    .faq-section .title,
+    .contacts-section .title {text-align: center;}
+    .faq-section .nav-pills {
+        flex-direction: row;
+        justify-content: center;
+        letter-spacing: 1px;
+    }
+
+    .contacts-section__info {margin-bottom: 1rem;}
+    .contacts-section__form-wrapp {margin-top: 2rem;}
+    footer.contacts-section {padding-bottom: 1.875rem;}
+
+    .fixed-top-navbar .fp-tableCell {padding: 3rem 3.75rem;}
+    .fixed-top-navbar #fullPage.show-menu {
+        transform: translateX(0) !important;
+    }
+}
+
+/* Small devices (smartphones, 768px and up) */
+@media screen and (max-width: 767px) {
+    .line-play,
+    .scrollDown,
+    .title br,
+    .faq-section .title br, 
+    .contacts-section .title br {display: none;}
+    .settings-box.d-flex {display: none !important;}
+    .fixed-brand {display: block !important;}
+
+    .navbar.fixed-right {
+        width: 100%;
+        height: auto;
+        bottom: auto;
+        padding: 80px 0 15px;
+        text-align: center;
+    }
+    .fixed-brand.fixed-bottom {
+        top: 5%;
+        bottom: auto;
+    }
+    .navbar.fixed-right.scrolled,
+    .navbar-collapse {
+        background: rgb(159,54,171);
+        background: -moz-linear-gradient(45deg, rgba(159,54,171,1) 0%, rgba(96,42,119,1) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(159,54,171,1) 0%,rgba(96,42,119,1) 100%);
+        background: linear-gradient(45deg, rgba(159,54,171,1) 0%,rgba(96,42,119,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f36ab', endColorstr='#602a77',GradientType=1 );
+        z-index: 5;
+    }
+    .navbar-collapse {padding: 15px;}
+
+    #fullPage.show-menu {transform: translateX(0) !important;}
+    #fullPage {padding-top: 3.750rem;}
+    .crypto-section__content {padding: 1.25rem 1.875rem 1.5rem !important;}
+    .crypto-section__content .row.w-100 {width: auto !important;}
+    .token-section .crypto-section__content .row.w-100 {width: 100% !important;}
+
+    .platform-section .btn-group {
+        flex-wrap: wrap;
+        margin-bottom: 1.25rem;
+    }
+    .platform-section .btn-group li:first-child {
+        margin-right: 0;
+        margin-bottom: 1.25rem;
+    }
+    .platform-section .btn-group li,
+    .platform-section .btn-group li .btn {width: 100%;}
+    .about__description {padding-left: 15px;}
+
+    .hex-content {transform: scale(.8);}
+    .hex-content.last {margin-top: 0;}
+    .hex-content.first {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .token-section .section-title {margin-bottom: 1.875rem;}
+    .token-sale__graph,
+    .token-sale__graph:before {
+        background-image: none;
+        margin-bottom: 0;
+    }
+    .token-sale__graph-info {
+        position: static;
+        text-align: left !important;
+        margin: 15px 0 !important;
+        width: 100%;
+    }
+    .token-sale__graph-ico,
+    .token-sale__graph-ico__shadow {
+        left: auto;
+        right: 0;
+    }
+    .text-right.token-sale__time {margin-bottom: 1.875rem;}
+    #distributionChart, 
+    #proceedsChart {height: 300px;}
+
+    .app-section__content .btn {
+        margin-right: 0;
+        width: 100%;
+    }
+    .app-section__content .btn-danger {margin-bottom: 1.25rem;}
+
+    .faq-section .nav-pills {letter-spacing: 0;}
+    .faq-section .title {margin-bottom: 1.875rem;}
+    .card-header .btn-link {
+        white-space: normal;
+        text-align: left;
+    }
+    .card-body {padding: .635rem 0 2.55rem;}  
+    
+    .navbar.fixed-top.scrolled .navbar-collapse {background: transparent;}
+    .navbar.fixed-top .container-fluid {padding: 0 1rem;}
+    .fixed-top-navbar .social-icons {display: none !important;}
+    .fixed-top-navbar .fp-tableCell {padding: 3.5rem 1rem !important;}
+    .fixed-top-navbar .fp-section.fp-table {margin-bottom: -3.5rem !important;}
+}
+
+/* monitors with small height */
+@media screen and (max-height: 768px) {
+    #cd-content {padding: 0.9375rem 0;}
+    .fp-tableCell {padding: 0.9375rem 1.875rem;}
+    .fixed-top-navbar .fp-tableCell {padding: 6.5rem 3.75rem;}
+    .fixed-top-navbar .fp-section.fp-table {margin-bottom: -7.5rem;}
+
+    .settings-box {display: none !important;}
+    
+    #lottie {height: 225px;}
+
+    .token-section .crypto-section__content {
+        padding-top: 2.5rem;
+        padding-bottom: 2.75rem;
+    }
+    .token-section.charts-view .title br {display: none;}
+    #distributionChart, 
+    #proceedsChart {height: 350px;}
+
+    .crypto-section__content .btcwdgt {height: 350px !important;}
+    .crypto-section__content .btcwdgt-chart .btcwdgt-body {max-height: 350px !important;}
+}
