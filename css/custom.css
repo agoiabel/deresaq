@@ -13,3 +13,56 @@
 .c_team_member {
     margin-left: 25px !important;
 }
+
+
+a.nav-link {
+    color: #7247C4 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    a.nav-link {
+        color: #FFFFFF !important;
+    }
+}
+
+.custom_primary {
+    background-color: #8D56F8 !important;
+}
+.custom_link {
+    color: #FFFFFF !important;
+}
+.ways {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.way {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    width: 45%;
+    padding: 35px;
+    margin-bottom: 35px;
+}
+.way_title {
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+
+    margin: 15px 0;
+}
+
+/* .navbar.fixed-top .navbar-nav a {
+    color: green !important;
+    line-height: 1;
+    border-radius: 20px;
+    background: transparent;
+    padding: .625rem 1.0625rem;
+    transition: all .2s ease-in;
+} */

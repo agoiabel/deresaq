@@ -5,7 +5,7 @@ Version  :  1.0.0
 Created  :  23.20.2018
 */
 
-/* 
+/*
 ********** ==> RESPONSIVE STYLES <== **********
 
 1. LARGER MONITORS
@@ -24,7 +24,7 @@ Created  :  23.20.2018
     .token-sale__graph-info:nth-of-type(4) {left: 10%;}
     .token-sale__graph-info:nth-of-type(5) {right: 10%;}
 
-    #distributionChart, 
+    #distributionChart,
     #proceedsChart {height: 400px;}
 
     .fixed-top-navbar .line-xl {margin-bottom: 6.5%;}
@@ -45,7 +45,7 @@ Created  :  23.20.2018
         top: 5%;
         left: 5%;
     }
-    
+
     .settings-box {bottom: 10%;}
 
     #lottie {margin-top: 3.75rem;}
@@ -70,7 +70,7 @@ Created  :  23.20.2018
 
     .navbar-toggler {
         cursor: pointer;
-        width: 35px; 
+        width: 35px;
         height: 30px;
         float: right;
         padding: 0;
@@ -121,11 +121,13 @@ Created  :  23.20.2018
     }
 
     .navbar.fixed-top {
-        background: rgb(159,54,171);
-        background: -moz-linear-gradient(45deg, rgba(159,54,171,1) 0%, rgba(96,42,119,1) 100%);
-        background: -webkit-linear-gradient(45deg, rgba(159,54,171,1) 0%,rgba(96,42,119,1) 100%);
-        background: linear-gradient(45deg, rgba(159,54,171,1) 0%,rgba(96,42,119,1) 100%);
+        background: rgb(141, 86, 248);
+        background: -moz-linear-gradient(45deg, rgba(141, 86, 248,1) 0%, rgba(96,42,119,1) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(141, 86, 248,1) 0%,rgba(96,42,119,1) 100%);
+        background: linear-gradient(45deg, rgba(141, 86, 248,1) 0%,rgba(96,42,119,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f36ab', endColorstr='#602a77',GradientType=1 );
+
+
     }
     .navbar.fixed-top .navbar-collapse {
         z-index: 5;
@@ -145,7 +147,7 @@ Created  :  23.20.2018
     .line {
         height: 2.5rem;
         background-position: bottom;
-    }   
+    }
 
 
     .navbar.fixed-right {
@@ -166,7 +168,7 @@ Created  :  23.20.2018
     .crypto-section.charts-view {height: auto;}
 
     .hex-content.first {margin-bottom: 90px;}
-    .hex-content.last {margin-top: 90px;} 
+    .hex-content.last {margin-top: 90px;}
 
     .token-sale__graph-info:nth-of-type(4) {
         margin-top: 2rem;
@@ -213,7 +215,7 @@ Created  :  23.20.2018
     .line-play,
     .scrollDown,
     .title br,
-    .faq-section .title br, 
+    .faq-section .title br,
     .contacts-section .title br {display: none;}
     .settings-box.d-flex {display: none !important;}
     .fixed-brand {display: block !important;}
@@ -231,10 +233,10 @@ Created  :  23.20.2018
     }
     .navbar.fixed-right.scrolled,
     .navbar-collapse {
-        background: rgb(159,54,171);
-        background: -moz-linear-gradient(45deg, rgba(159,54,171,1) 0%, rgba(96,42,119,1) 100%);
-        background: -webkit-linear-gradient(45deg, rgba(159,54,171,1) 0%,rgba(96,42,119,1) 100%);
-        background: linear-gradient(45deg, rgba(159,54,171,1) 0%,rgba(96,42,119,1) 100%);
+        background: rgb(141, 86, 248);
+        background: -moz-linear-gradient(45deg, rgba(141, 86, 248,1) 0%, rgba(96,42,119,1) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(141, 86, 248,1) 0%,rgba(96,42,119,1) 100%);
+        background: linear-gradient(45deg, rgba(141, 86, 248,1) 0%,rgba(96,42,119,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f36ab', endColorstr='#602a77',GradientType=1 );
         z-index: 5;
     }
@@ -283,7 +285,7 @@ Created  :  23.20.2018
         right: 0;
     }
     .text-right.token-sale__time {margin-bottom: 1.875rem;}
-    #distributionChart, 
+    #distributionChart,
     #proceedsChart {height: 300px;}
 
     .app-section__content .btn {
@@ -298,8 +300,8 @@ Created  :  23.20.2018
         white-space: normal;
         text-align: left;
     }
-    .card-body {padding: .635rem 0 2.55rem;}  
-    
+    .card-body {padding: .635rem 0 2.55rem;}
+
     .navbar.fixed-top.scrolled .navbar-collapse {background: transparent;}
     .navbar.fixed-top .container-fluid {padding: 0 1rem;}
     .fixed-top-navbar .social-icons {display: none !important;}
@@ -315,7 +317,7 @@ Created  :  23.20.2018
     .fixed-top-navbar .fp-section.fp-table {margin-bottom: -7.5rem;}
 
     .settings-box {display: none !important;}
-    
+
     #lottie {height: 225px;}
 
     .token-section .crypto-section__content {
@@ -323,7 +325,7 @@ Created  :  23.20.2018
         padding-bottom: 2.75rem;
     }
     .token-section.charts-view .title br {display: none;}
-    #distributionChart, 
+    #distributionChart,
     #proceedsChart {height: 350px;}
 
     .crypto-section__content .btcwdgt {height: 350px !important;}

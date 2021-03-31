@@ -1,0 +1,148 @@
+<!-- TEAM ========-->
+<section class="crypto-section team-section" id="section2">
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-md-12 d-flex flex-column justify-content-center crypto-section__content">
+                <div class="row w-100">
+                    <div class="col-md-12 text-center">
+                        <h1 class="section-title title">The <span>Team</span></h1>
+                    </div>
+                </div>
+
+                <div class="c_team_member">
+                    <div class="row w-100 wow fadeInUp c_advisors" data-wow-duration="1.6s">
+                        <div class="">
+                            <div class="team-section__member">
+                                <div class="team-section__member-face">
+                                    <div class="face-mask" data-bg="./images/abel_agoi_2.jpg"></div>
+                                    <img src="./images/abel_agoi_2.jpg" alt="team-member-face" class="img-fluid">
+                                </div>
+
+                                <div class="team-section__member-meta">
+                                    <h5 class="name text-center">Agoi Abel</h5>
+                                    <div class="function text-center">Project Lead</div>
+                                    <!-- <div class="function text-center">CEO</div> -->
+
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="team-section__member">
+                                <div class="team-section__member-face">
+                                    <div class="face-mask" data-bg="./images/gift_eqwuenu.jpeg"></div>
+                                    <img src="./images/gift_eqwuenu.jpeg" alt="team-member-face" class="img-fluid">
+                                </div>
+                                <div class="team-section__member-meta">
+                                    <h5 class="name text-center">Gift Eqwuenu</h5>
+                                    <div class="function text-center">Developer</div>
+                                    <!-- <div class="function text-center">CM</div> -->
+
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="">
+                        <div class="team-section__member">
+                            <div class="team-section__member-face">
+                                <div class="face-mask" data-bg="./images/gift_eqwuenu.jpeg"></div>
+                                <img src="./images/gift_eqwuenu.jpeg" alt="team-member-face" class="img-fluid">
+                            </div>
+                            <div class="team-section__member-meta">
+                                <h5 class="name text-center">Gift Eqwuenu</h5>
+                                <div class="function text-center">Developer</div>
+                                <!-- <div class="function text-center">CM</div> -->
+
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row w-100">
+                        <div class="col-md-12 text-center">
+                            <!-- <h1 class="section-title title">The Advisory <span>Team</span></h1> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row w-100 wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".2s">
+
+                    <div class="c_advisors">
+                        <div class="team-section__member advisor">
+                            <div class="team-section__member-face">
+                                <div class="face-mask" data-bg="./images/adriana_costa.jpeg"></div>
+                                <img src="./images/adriana_costa.jpeg" alt="team-member-face" class="img-fluid">
+                            </div>
+                            <div class="team-section__member-meta">
+                                <h5 class="name text-center">Adriana Costa</h5>
+                                <div class="function text-center">Grants Coordinator</div>
+                                <!-- <div class="function text-center">CIO</div> -->
+
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
